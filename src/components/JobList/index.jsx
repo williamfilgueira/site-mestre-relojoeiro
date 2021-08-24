@@ -1,23 +1,26 @@
-import { JobsContainer } from "./styles";
+import { JobsContainer, BoxListJob, JobList } from "./styles";
 
 function Jobs() {
   return (
     <JobsContainer>
       <div className="container">
-        <div className="box-list-job">
-          <div className="title-list">
+        <BoxListJob>
+          <div>
             <img src="/assets/engrenagem.svg" />
             <h2>Tipos de serviços</h2>
             <img src="/assets/engrenagem.svg" />
           </div>
-          <div className="job-list">
-            
+        </BoxListJob>
+        <JobList>
+          <div >
             <ul>
               <li>Revisões em Carrilhões</li>
               <li> Revisões em Relógios automáticos</li>
               <li> Revisões em Relógios Quartz</li>
               <li> Revisões em Relógios Cronógrafos</li>
             </ul>
+          </div>
+          <div >
             <ul>
               <li> Troca de vidros com vedação*</li>
               <li> Regulagem em relógios automáticos</li>
@@ -25,7 +28,7 @@ function Jobs() {
               <li> Entre outros</li>
             </ul>
           </div>
-        </div>
+        </JobList>
       </div>
     </JobsContainer>
   );

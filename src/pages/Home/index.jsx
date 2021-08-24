@@ -14,8 +14,8 @@ function Home(){
         <Banner/>
         <IconComponent/>
         <Info/>
-        {/* <Jobs/>
-        <Specialties/>
+        <Jobs/>
+        {/* <Specialties/>
         <Contact/>
         <Footer/> */}
         </>
