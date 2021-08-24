@@ -1,29 +1,28 @@
-import { Header } from "./styles";
+import { Header, BoxLogo, Nav } from "./styles";
 
 function HeaderComponent() {
   return (
     <Header>
       <div className="container">
-        <div className="box-logo">
-          <img
-            src="/assets/MestreRelojoeiro.svg"
-            alt="Logo mestre relojoeiro"
-          />
+        <BoxLogo>
           <a href="#">
-            {" "}
-            <h1>Mestre Relojoeiro</h1>
+            <img
+              src="/assets/MestreRelojoeiro.svg"
+              alt="Logo mestre relojoeiro"
+            />
+            <h3>Mestre Relojoeiro</h3>
           </a>
-        </div>
-        <nav className="link-topo">
+        </BoxLogo>
+        <Nav>
           <ul>
-            <a href="#serviços">
-              <li>Serviços</li>
-            </a>
-            <a href="#contato">
-              <li>Contato</li>
-            </a>
+            <li>
+              <a href="#serviços">Serviços</a>
+            </li>
+            <li>
+              <a href="#contato">Contato</a>
+            </li>
           </ul>
-        </nav>
+        </Nav>
       </div>
     </Header>
   );

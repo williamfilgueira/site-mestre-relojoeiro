@@ -11,6 +11,7 @@ function Jobs() {
             <img src="/assets/engrenagem.svg" />
           </div>
           <div className="job-list">
+            
             <ul>
               <li>Revisões em Carrilhões</li>
               <li> Revisões em Relógios automáticos</li>

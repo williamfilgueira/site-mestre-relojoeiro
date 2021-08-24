@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 export const ContactContainer = styled.div`
+    background-color: #f4f1f1;
   .container {
     margin-top: 150px;
-    height: 400px;
   }
   .box-conteudo {
-    font-size: 35px;
+    font-size: 1.9rem;
     height: 400px;
-    background-color: #f4f1f1;
     .box-contato {
         display: flex;
         flex-flow: column wrap;

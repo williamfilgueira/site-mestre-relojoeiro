@@ -1,46 +1,48 @@
 import styled from "styled-components";
 
 export const Header = styled.header`
+  a {
+    text-decoration: none;
+    color: black;
+  }
   .container {
-    padding: 20px;
-    width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    .box-logo {
-      display: flex;
-      align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+`;
+
+export const BoxLogo = styled.div`
+  flex: 1 1 auto;
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    h3 {
+      font-size: 4em;
     }
-    .box-logo a {
-      margin-left: 20px;
-      text-decoration: none;
-      color: #555454;
-      transition: 0.3s;
-    }
-    .box-logo a:hover {
-      color: #d09d20;
-    }
-    .box-logo h1 {
-      font-size: 45px;
-    }
-    .link-topo ul {
-      display: flex;
-      align-items: center;
-    }
-    .link-topo ul li {
-      list-style: none;
-    }
-    .link-topo ul a {
-      margin: 10px;
-      text-transform: uppercase;
-      text-decoration: none;
-      font-size: 26px;
-      color: #555454;
-      transition: 0.3s;
-    }
-    .link-topo ul a:hover {
-      transform: scale(1.2);
-      color: #d09d20;
+  }
+`;
+
+export const Nav = styled.nav`
+  flex: 1 1 300px;
+  ul {
+    margin-left: 5em;
+
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+    list-style: none;
+
+    li {
+      :hover {
+        transform: scale(1.03);
+      }
+      a {
+        font-size: 2.5em;
+      }
     }
   }
 `;

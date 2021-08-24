@@ -19,18 +19,19 @@ export const JobsContainer = styled.div`
   }
 
   .container {
-    height: 700px;
-    display: flex;
+    height: 800px;
+    /* display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 50px; */
     .box-list-job {
-      width: 90%;
     }
     .title-list {
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 50px;
+      margin-top: 150px;
+      margin-bottom: 50px;
+
       font-size: 40px;
       img {
         height: 100px;
@@ -41,7 +42,6 @@ export const JobsContainer = styled.div`
       }
     }
     .job-list {
-      margin-bottom: 150px;
       display: flex;
       font-size: 35px;
       width: 100%;
@@ -49,11 +49,10 @@ export const JobsContainer = styled.div`
         width: 100%;
         margin-left: 150px;
         padding: 0;
-        li{
-          padding: 5px;
+        li {
+          padding: 10px;
         }
       }
-      
     }
   }
 `;

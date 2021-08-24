@@ -14,10 +14,10 @@ function Home(){
         <Banner/>
         <IconComponent/>
         <Info/>
-        <Jobs/>
+        {/* <Jobs/>
         <Specialties/>
         <Contact/>
-        <Footer/>
+        <Footer/> */}
         </>
     )
 }
