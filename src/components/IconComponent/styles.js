@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const IconContainer = styled.section`
+    margin-top: 50px;
+
   .container {
     display: flex;
     flex-wrap: wrap;

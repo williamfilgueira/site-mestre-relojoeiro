@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const JobsContainer = styled.div`
   text-align: center;
-  display: block;
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -37,27 +36,24 @@ export const JobsContainer = styled.div`
 
 export const BoxListJob = styled.div`
   flex: 1 1 1400px;
-  margin-top: 100px;
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5em;
   div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 3.5em;
   }
 `;
 
 export const JobList = styled.div`
-  flex: 1 1 500px;
-  text-align: center;
-  div {
+  flex: 1 1 auto;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: 40px;
+  ul {
     margin-top: 20px;
     font-size: 3em;
-    display: inline-block;
-
-    ul {
-      li {
-        padding: 10px 40px 10px 5px;
-      }
-    }
   }
 `;

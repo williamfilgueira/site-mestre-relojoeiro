@@ -15,9 +15,9 @@ function Home(){
         <IconComponent/>
         <Info/>
         <Jobs/>
-        {/* <Specialties/>
+         <Specialties/>
         <Contact/>
-        <Footer/> */}
+        <Footer/>
         </>
     )
 }

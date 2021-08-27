@@ -1,26 +1,30 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-export const FooterContainer =styled.div`
+export const FooterContainer = styled.div`
+  margin-top: 50px;
+  flex: 1 1 auto;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 2em;
+}
+`;
 
-    .container{
-        padding: 20px;
-        .logo-footer{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            p{
-                font-size: 20px;
-            }
-            .box-titulo{
-                display: flex;
-                align-items: center;
-                font-size: 25px;
-                h2{
-                    text-shadow: 2px 2px 2px #daa520;
-                    margin-left: 20px;
-                }
-            }
-        }
-    }
+export const BoxLogo = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 
-`
+`;
+
+// // export const Copy = styled.div`
+// //   display: flex;
+// //   justify-content: center;
+// //   align-items: ;
+
+// `;

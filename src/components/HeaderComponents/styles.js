@@ -22,6 +22,7 @@ export const BoxLogo = styled.div`
     gap: 20px;
     h3 {
       font-size: 4em;
+      text-shadow: 1px 1px 1px #daa632;
     }
   }
 `;
@@ -35,13 +36,18 @@ export const Nav = styled.nav`
     justify-content: center;
     gap: 2.5em;
     list-style: none;
-
     li {
+      transition: 0.6s;
       :hover {
-        transform: scale(1.03);
+        transform: scale(1.2);
+        color: red;
       }
-      a {
-        font-size: 2.5em;
+    }
+    a {
+      transition: 0.6s;
+      font-size: 2.5em;
+      :hover {
+        color: #daa632;
       }
     }
   }
